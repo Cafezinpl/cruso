@@ -1,2 +1,2 @@
-# cruso
+# aulas
 Curso aaaaaaaaaaaaaaaaaaaaaaaaaaa
