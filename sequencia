@@ -1,0 +1,25 @@
+programa {
+  funcao inicio() {
+    Algoritmo ArmazenaPositivoNegativo
+    // Declaração de variáveis
+    real numero
+    real A, B
+
+    // Entrada de dados
+    Escreva("Digite um número: ")
+    Leia(numero)
+
+    // Verifica se o número é positivo ou negativo
+    Se numero >= 0 
+        A <- numero
+    Se não
+        B <- numero
+    FimSe
+
+    // Mostra o resultado
+    Escreva("O valor armazenado em A é: ", A)
+    Escreva("O valor armazenado em B é: ", B)
+FimAlgoritmo
+
+  }
+}
