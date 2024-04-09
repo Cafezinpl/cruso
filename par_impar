@@ -1,0 +1,20 @@
+programa {
+  funcao inicio() {
+    Algoritmo VerificaParImpar
+    // Declaração de variáveis
+    inteiro numero
+
+    // Entrada de dados
+    Escreva("Digite um número inteiro: ")
+    Leia(numero)
+
+    // Verifica se o número é par ou ímpar
+    Se numero % 2 == 0 
+        Escreva(numero, " é um número par.")
+    Se não
+        Escreva(numero, " é um número ímpar.")
+    FimSe
+FimAlgoritmo
+
+  }
+}
