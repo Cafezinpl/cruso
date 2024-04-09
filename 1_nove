@@ -1,0 +1,20 @@
+programa {
+  funcao inicio() {
+    Algoritmo VerificaFaixaPermitida
+    // Declaração de variáveis
+    inteiro valor
+
+    // Entrada de dados
+    Escreva("Digite um valor entre 1 e 9: ")
+    Leia(valor)
+
+    // Verifica se o valor está dentro da faixa permitida
+    Se valor >= 1 E valor <= 9 
+        Escreva("O valor está na faixa permitida.")
+    Se não
+        Escreva("O valor está fora da faixa permitida.")
+    FimSe
+FimAlgoritmo
+
+  }
+}
