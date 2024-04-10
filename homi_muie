@@ -1,0 +1,25 @@
+programa {
+  funcao inicio() {
+    Algoritmo SaudacaoGenerica
+    // Declaração de variáveis
+    texto nome
+    caractere sexo
+
+    // Entrada de dados
+    Escreva("Digite o nome da pessoa: ")
+    Leia(nome)
+    Escreva("Digite o sexo da pessoa (M para masculino, F para feminino): ")
+    Leia(sexo)
+
+    // Verifica o sexo e exibe a saudação correspondente
+    Se sexo = 'M' ou sexo = 'm' Então
+        Escreva("Ilmo Sr. ", nome)
+    Se nãoSe sexo = 'F' ou sexo = 'f' Então
+        Escreva("Ilma Sra. ", nome)
+    Se não
+        Escreva("Sexo não reconhecido.")
+    FimSe
+FimAlgoritmo
+
+  }
+}
