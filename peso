@@ -1,0 +1,29 @@
+programa {
+  funcao inicio() {
+    Algoritmo CalculaPesoIdeal
+    // Declaração de variáveis
+    real altura, peso_ideal
+    caractere sexo
+
+    // Entrada de dados
+    Escreva("Digite a altura (em metros): ")
+    Leia(altura)
+    Escreva("Digite o sexo da pessoa (M para masculino, F para feminino): ")
+    Leia(sexo)
+
+    // Cálculo do peso ideal
+    Se sexo = 'M' ou sexo = 'm' 
+        peso_ideal <- (72.7 * altura) - 58
+    Se nãoSe sexo = 'F' ou sexo = 'f' 
+        peso_ideal <- (62.1 * altura) - 44.7
+    Se não
+        Escreva("Sexo não reconhecido.")
+        retorne
+    FimSe
+
+    // Saída do resultado
+    Escreva("O peso ideal para uma pessoa com altura ", altura, " metros e sexo ", sexo, " é: ", peso_ideal, " kg")
+FimAlgoritmo
+
+  }
+}
